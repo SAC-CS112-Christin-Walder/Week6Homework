@@ -35,13 +35,11 @@ public class Week6Homework
 				
 				if (user==computer)
 					System.out.println("It's a tie!");
-				else if ((user==1 && computer==2)||(user==2 && computer==1))
+				else if ((user==1 && computer==2)||(user==2 && computer==3)||(user==3 && computer==1))
 					System.out.println("The computer wins!");
-				else if ((user==1 && computer==3)||(user==3 && computer==1))
+				eelse if ((user==1 && computer==3)||(user==2 && computer==1)||(user==3 && computer==2))
 					System.out.println("You win!");
-				else if ((user==2 && computer==3)||(user==3 && computer==2))
-					System.out.println("The computer wins!");
-				//How to stop program and loop back around for invalid selection
+				
 			}
 			else 
 				System.out.println("Invalid selection");
